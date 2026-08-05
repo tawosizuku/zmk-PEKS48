@@ -43,37 +43,37 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W      &kp E     &kp R     &kp T           &kp T        &kp Y        &kp Y        &kp U         &kp I                   &kp O           &kp P
-&kp A    &kp S      &kp D     &kp F     &kp G           &kp G        &kp H        &kp H        &kp J         &kp K                   &kp L           &kp BACKSPACE
-&kp Z    &kp X      &kp C     &kp V     &kp B           &kp N        &kp N        &kp N        &kp M         &mt LEFT_BRACKET COMMA  &kp PERIOD      &kp SLASH
-&kp ESC  &kp LCTRL  &kp LWIN  &kp LALT  &kp LEFT_SHIFT  &lt 1 TAB    &lt 2 ENTER  &lt 3 SPACE  &kp JP_QUOTE  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp Q   &kp L   &kp U    &kp COMMA  &kp PERIOD          &trans             &trans       &kp F        &kp W   &kp R    &kp Y   &kp P
+&kp E   &kp I   &lt 3 A  &kp O      &kp ENTER           &trans             &trans       &kp K        &kp T   &lt 3 N  &kp S   &kp H
+&kp Z   &kp X   &kp C    &kp V      &kp BACKSPACE       &trans             &trans       &kp G        &kp D   &kp M    &kp J   &kp B
+&trans  &trans  &trans   &trans     &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANG4  &lt 1 SPACE  &trans  &trans   &trans  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp N5           &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0
-&trans        &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &trans        &kp NUMBER_4  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp JP_UNDERSCORE
-&trans        &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &trans        &kp NUMBER_1  &kp NUMBER_2    &kp DOWN_ARROW  &kp PIPE         &trans
-&trans        &trans        &trans        &trans           &lt 0 TAB        &trans          &trans        &kp NUMBER_0  &kp JP_DQUOTE   &trans          &trans           &trans
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &trans             &trans       &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
+&kp CARET             &kp AT_SIGN   &kp SLASH     &kp MINUS     &kp UNDERSCORE      &trans             &trans       &kp SEMICOLON  &kp COLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&mt LEFT_SHIFT TILDE  &kp GRAVE     &kp QUESTION  &kp EQUAL     &kp UNDER           &trans             &trans       &kp PLUS       &kp ASTERISK   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
+&trans                &trans        &trans        &trans        &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANG4  &lt 1 SPACE    &kp JP_DQUOTE  &trans            &trans             &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans      &kp EXCLAMATION  &kp JP_AT  &kp POUND  &kp DOLLAR  &kp PERCENT     &kp JP_CARET  &kp JP_AMPERSAND   &kp JP_ASTERISK   &kp MINUS    &kp UNDERSCORE   &trans
-&bt BT_PRV  &kp GRAVE        &kp TILDE  &trans     &trans      &kp C_VOL_UP    &kp C_VOL_DN  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &trans
-&bt BT_NXT  &bootloader      &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
-&trans      &trans           &trans     &trans     &trans      &trans          &trans        &trans             &trans            &trans       &trans           &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR  &kp PERCENT         &kp PERCENT        &kp AMPERSAND        &kp AMPERSAND      &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
+&kp TILDE        &kp GRAVE          &kp QUESTION  &kp EQUAL   &kp UNDERSCORE      &kp C_VOL_UP       &kp C_VOL_DN         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS           &kp JP_ASTERISK        &trans
+&trans           &trans             &trans        &trans      &bootloader         &trans             &trans               &bootloader        &trans            &trans                &trans                 &trans
+&trans           &trans             &trans        &trans      &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANG_HIRAGANA  &lt 1 SPACE        &trans            &trans                &trans                 &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans        &kp F1        &kp F2        &kp F3        &kp F4          &kp F5         &kp F6       &kp F7          &kp F8          &kp F9  &kp F10   &kp F11
-&trans        &trans        &trans        &mkp MB4      &mkp MB5        &trans         &trans       &kp LEFT_ARROW  &mkp MB1        &trans  &mkp MB2  &kp F12
-&bootloader   &trans        &trans        &trans        &bt BT_CLR_ALL  &bootloader    &bootloader  &trans          &kp DOWN_ARROW  &trans  &trans    &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &trans       &trans          &trans          &trans  &trans    &kp LA(F4)
+&trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW    &trans     &trans
+&trans  &mkp MB1        &trans          &mkp MB2         &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
+&trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
             >;
         };
 
