@@ -62,7 +62,7 @@
         layer_2 {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp DOLLAR  &kp PERCENT         &kp PERCENT        &kp AMPERSAND        &kp AMPERSAND      &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
-&kp TILDE        &kp GRAVE          &kp QUESTION  &kp EQUAL   &kp UNDERSCORE      &kp C_VOL_UP       &kp C_VOL_DN         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp JP_PLUS           &kp JP_ASTERISK        &trans
+&kp TILDE        &kp GRAVE          &kp QUESTION  &kp EQUAL   &kp UNDERSCORE      &kp C_VOL_UP       &kp C_VOL_DN         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LESS_THAN         &kp GREATER_THAN       &trans
 &trans           &trans             &trans        &trans      &bootloader         &trans             &trans               &bootloader        &bt BT_CLR        &trans                &trans                 &trans
 &trans           &trans             &trans        &trans      &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANG_HIRAGANA  &lt 1 SPACE        &trans            &trans                &trans                 &trans
             >;
