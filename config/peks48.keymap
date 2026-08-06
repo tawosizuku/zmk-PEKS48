@@ -52,10 +52,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &trans             &trans       &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
-&kp CARET             &kp AT_SIGN   &kp SLASH     &kp MINUS     &kp UNDERSCORE      &trans             &trans       &kp SEMICOLON  &kp COLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&mt LEFT_SHIFT TILDE  &kp GRAVE     &kp QUESTION  &kp EQUAL     &kp UNDER           &trans             &trans       &kp PLUS       &kp ASTERISK   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-&trans                &trans        &trans        &trans        &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANG4  &lt 1 SPACE    &kp JP_DQUOTE  &trans            &trans             &trans
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &trans             &trans            &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
+&kp CARET             &kp AT_SIGN   &kp SLASH     &kp MINUS     &kp UNDERSCORE      &trans             &trans            &kp SEMICOLON  &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NON_US_BACKSLASH
+&mt LEFT_SHIFT TILDE  &kp GRAVE     &kp QUESTION  &kp EQUAL     &kp UNDER           &trans             &trans            &kp PLUS       &kp ASTERISK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&trans                &trans        &trans        &trans        &mt LEFT_SHIFT TAB  &mt LCTRL LANG2    &lt 2 LANGUAGE_1  &lt 1 SPACE    &kp JP_DQUOTE  &trans            &trans             &trans
             >;
         };
 
