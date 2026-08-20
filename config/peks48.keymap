@@ -70,10 +70,10 @@
 
         layer_3 {
             bindings = <
-&trans  &mkp MB4        &msc SCRL_UP    &mkp MB5         &trans  &trans    &trans  &trans  &kp HOME  &kp UP_ARROW    &kp END    &trans
-&trans  &mkp MB1        &trans          &mkp MB2         &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
-&trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
+&trans  &mkp MB4         &msc SCRL_UP    &mkp MB5         &trans  &trans    &trans  &trans  &kp HOME  &kp UP_ARROW    &kp END    &trans
+&trans  &kp EXCLAMATION  &trans          &kp QUESTION     &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
+&trans  &trans           &trans          &trans           &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
             >;
         };
 
