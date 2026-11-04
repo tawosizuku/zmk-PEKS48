@@ -43,19 +43,19 @@
 
         default_layer {
             bindings = <
-&kp Q   &kp L   &kp U    &kp COMMA       &kp PERIOD               &trans                &trans       &kp F             &kp W   &kp R    &kp Y   &kp P
-&kp E   &kp I   &lt 3 A  &mt LEFT_ALT O  &kp BACKSPACE            &trans                &trans       &kp K             &kp T   &lt 3 N  &kp S   &kp H
-&kp Z   &kp X   &kp C    &kp V           &kp ENTER                &trans                &trans       &kp G             &kp D   &kp M    &kp J   &kp B
-&trans  &trans  &trans   &trans          &mt LEFT_GUI LANGUAGE_2  &mt LEFT_SHIFT TAB    &lt 1 SPACE  &lt 2 LANGUAGE_1  &trans  &trans   &trans  &trans
+&kp Q   &kp W   &kp E    &kp R           &kp T                    &trans                &trans       &kp Y             &kp U   &kp I      &kp P       &kp BACKSPACE
+&kp A   &kp S   &lt 3 D  &mt LEFT_ALT F  &kp G                    &trans                &trans       &kp H             &kp J   &lt 3 K    &kp L       &kp ENTER
+&kp Z   &kp X   &kp C    &kp V           &kp B                    &trans                &trans       &kp N             &kp M   &kp COMMA  &kp PERIOD  &kp SLASH
+&trans  &trans  &trans   &trans          &mt LEFT_GUI LANGUAGE_2  &mt LEFT_SHIFT TAB    &lt 1 SPACE  &lt 2 LANGUAGE_1  &trans  &trans     &trans      &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5              &trans             &trans            &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
-&kp CARET             &kp AT_SIGN   &kp SLASH     &kp MINUS     &kp UNDERSCORE      &trans             &trans            &kp SEMICOLON  &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NON_US_BACKSLASH
-&mt LEFT_SHIFT TILDE  &kp GRAVE     &kp QUESTION  &kp EQUAL     &kp UNDER           &trans             &trans            &kp PLUS       &kp ASTERISK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-&trans                &trans        &trans        &trans        &mt LANGUAGE_1 TAB  &mt LCTRL LANG2    &lt 2 LANGUAGE_1  &lt 1 SPACE    &kp JP_DQUOTE  &trans            &trans             &trans
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &trans             &trans            &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
+&kp CARET             &kp AT_SIGN   &kp SLASH     &kp MINUS     &kp UNDERSCORE  &trans             &trans            &kp SEMICOLON  &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp NON_US_BACKSLASH
+&mt LEFT_SHIFT TILDE  &kp GRAVE     &kp QUESTION  &kp EQUAL     &kp UNDER       &trans             &trans            &kp PLUS       &kp ASTERISK   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&trans                &trans        &trans        &trans        &kp LANGUAGE_1  &mt LCTRL LANG2    &lt 2 LANGUAGE_1  &lt 1 SPACE    &kp JP_DQUOTE  &trans            &trans             &trans
             >;
         };
 
@@ -70,10 +70,10 @@
 
         layer_3 {
             bindings = <
-&trans      &kp ESC          &msc SCRL_UP    &mkp MB5         &trans      &trans    &trans  &trans  &kp HOME  &kp UP_ARROW    &kp END    &trans
-&trans      &kp EXCLAMATION  &trans          &kp QUESTION     &trans      &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
-&bt BT_PRV  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &bt BT_NXT  &trans    &trans  &trans  &trans    &trans          &trans     &trans
-&trans      &trans           &trans          &trans           &trans      &trans    &trans  &trans  &trans    &trans          &trans     &trans
+&trans      &kp ESC          &msc SCRL_UP    &mkp MB5         &trans          &trans    &trans  &trans  &kp HOME  &kp UP_ARROW    &kp END    &trans
+&trans      &kp EXCLAMATION  &trans          &kp QUESTION     &trans          &trans    &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&bt BT_PRV  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &bt BT_NXT      &trans    &trans  &trans  &trans    &trans          &trans     &trans
+&trans      &trans           &trans          &trans           &kp LANGUAGE_1  &trans    &trans  &trans  &trans    &trans          &trans     &trans
             >;
         };
 
